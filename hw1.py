@@ -22,10 +22,10 @@ async def randomm(message: types.Message):
     user_num=int(message.text)
     if user_num==number:
         await message.reply_photo(photo='https://media.makeameme.org/created/you-win-nothing-b744e1771f.jpg')
-        await message.answer(f'выбранное число было {number}')
+        await message.answer(f'Выбранное число было {number}')
     else:
         await message.reply_photo(photo='https://media.makeameme.org/created/sorry-you-lose.jpg')
-        await message.answer(f'выбранное число было {number}')
+        await message.answer(f'Выбранное число было {number}')
 
 @dp.message()
 async def error(message: types.Message):
