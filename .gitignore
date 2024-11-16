@@ -3,3 +3,4 @@ venv
 
 lesson1.py
 lesson2.py
+__pycache__
